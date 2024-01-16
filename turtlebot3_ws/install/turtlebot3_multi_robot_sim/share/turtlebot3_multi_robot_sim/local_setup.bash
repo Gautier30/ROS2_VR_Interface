@@ -1,0 +1,1 @@
+/home/gautier/turtlebot3_ws/build/turtlebot3_multi_robot_sim/ament_cmake_environment_hooks/local_setup.bash

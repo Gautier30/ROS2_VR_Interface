@@ -1,0 +1,40 @@
+[0.125s] Invoking command in '/home/gautier/turtlebot3_ws/build/turtlebot3_multi_robot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gautier/turtlebot3_ws/build/turtlebot3_multi_robot_sim -- -j8 -l8
+[0.141s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.161s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.304s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.311s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.354s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.355s] -- Added test 'lint_cmake' to check CMake code style
+[0.356s] -- Added test 'xmllint' to check XML markup files
+[0.357s] -- Configuring done
+[0.359s] -- Generating done
+[0.360s] -- Build files have been written to: /home/gautier/turtlebot3_ws/build/turtlebot3_multi_robot_sim
+[0.544s] Invoked command in '/home/gautier/turtlebot3_ws/build/turtlebot3_multi_robot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/gautier/turtlebot3_ws/build/turtlebot3_multi_robot_sim -- -j8 -l8
+[0.785s] Invoking command in '/home/gautier/turtlebot3_ws/build/turtlebot3_multi_robot_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/gautier/turtlebot3_ws/build/turtlebot3_multi_robot_sim
+[0.790s] -- Install configuration: ""
+[0.791s] -- Execute custom install script
+[0.791s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim//launch/multi_robot_slam_launch.xml
+[0.791s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim//launch/multi_robot_spawn_launch.xml
+[0.791s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim//param/waffle.yaml
+[0.791s] -- Symlinking: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim//param/waffle1.yaml
+[0.797s] -- Symlinking: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim//param/waffle2.yaml
+[0.803s] -- Symlinking: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim//param/waffle3.yaml
+[0.808s] -- Symlinking: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim//rviz/nav2_namespaced_view.rviz
+[0.814s] -- Symlinking: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim//map/workshop.pgm
+[0.819s] -- Symlinking: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim//map/workshop.yaml
+[0.825s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/ament_index/resource_index/package_run_dependencies/turtlebot3_multi_robot_sim
+[0.826s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/ament_index/resource_index/parent_prefix_path/turtlebot3_multi_robot_sim
+[0.826s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim/environment/ament_prefix_path.sh
+[0.826s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim/environment/ament_prefix_path.dsv
+[0.826s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim/environment/path.sh
+[0.829s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim/environment/path.dsv
+[0.829s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim/local_setup.bash
+[0.829s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim/local_setup.sh
+[0.829s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim/local_setup.zsh
+[0.829s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim/local_setup.dsv
+[0.829s] -- Symlinking: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim/package.dsv
+[0.836s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/ament_index/resource_index/packages/turtlebot3_multi_robot_sim
+[0.836s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim/cmake/turtlebot3_multi_robot_simConfig.cmake
+[0.836s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim/cmake/turtlebot3_multi_robot_simConfig-version.cmake
+[0.837s] -- Up-to-date symlink: /home/gautier/turtlebot3_ws/install/turtlebot3_multi_robot_sim/share/turtlebot3_multi_robot_sim/package.xml
+[0.839s] Invoked command in '/home/gautier/turtlebot3_ws/build/turtlebot3_multi_robot_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/gautier/turtlebot3_ws/build/turtlebot3_multi_robot_sim

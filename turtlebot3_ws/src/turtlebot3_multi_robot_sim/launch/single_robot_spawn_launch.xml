@@ -1,0 +1,42 @@
+<launch>
+    <!-- _________________ARGUMENTS_________________ -->
+
+    <arg name="robot_model" default="waffle"/>
+    <arg name="use_sim_time" default="true"/>
+    <arg name="world" default="$(find-pkg-share turtlebot3_gazebo)/worlds/custom_worlds/workshop_smaller.world"/>
+
+    <!-- ___________________________________________ -->
+
+    <!-- _________________STARTING THE GAZEBO SIMULATION_________________ -->
+
+    <!--  Including the Gazebo server launch file -->
+    <include file="$(find-pkg-share gazebo_ros)/launch/gzserver.launch.py">
+    <!--  World as argument  -->
+    <arg name="world" value="$(var world)"/>
+    </include>
+
+    <!--  Including the Gazebo client launch file -->
+    <include file="$(find-pkg-share gazebo_ros)/launch/gzclient.launch.py"/>
+
+    <!-- _________________________________________________________________ -->
+
+    <!-- _________________SPAWNING ROBOT 1_________________ -->
+
+    <!--  Spawning the model -->
+    <node pkg="gazebo_ros" exec="spawn_entity.py" name="spawn_robot_urdf" 
+    args="-file $(find-pkg-share turtlebot3_gazebo)/models/turtlebot3_$(var robot_model)/model.sdf 
+    -x 0.0 -y 0.0 -z 0.0 -R 0.0 -P 0.0 -Y 0.0 
+    -entity $(var robot_model)" output="screen"> </node>
+
+    <!--  Starting the robot_state_publisher node -->
+    <node pkg="robot_state_publisher" exec="robot_state_publisher" name="robot_state_publisher" output="screen">
+        <!--  Parameters for the node  -->
+        <param name="use_sim_time" value="$(var use_sim_time)"/>
+        <param name="robot_description" value="$(command 'cat $(find-pkg-share turtlebot3_description)/urdf/turtlebot3_$(var robot_model).urdf')"/>
+        <!-- Remappings -->
+        <!--remap from="/tf" to="/$(var robot_model)1/tf"/>
+        <remap from="/tf_static" to="/$(var robot_model)1/tf_static"/-->
+    </node>
+
+    <!-- __________________________________________________ -->
+</launch>
